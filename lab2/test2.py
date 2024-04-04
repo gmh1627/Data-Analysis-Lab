@@ -1,0 +1,20 @@
+import urllib.request
+
+with urllib.request.urlopen('https://dblp.dagstuhl.de/pid/z/AlbertYZomaya.html') as response:
+    html = response.read()
+
+html_text = html.decode()
+
+with open('page6.txt','w',encoding='utf-8') as f:
+    f.write(html_text)
+#print(html_text)
+
+#<span itemprop="name">CoRR</span></span> <span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationVolume"><span itemprop="volumeNumber">abs/2306.03571</span></span></a> (<span itemprop="datePublished">2023</span>)</cite><meta property="genre" content="computer science">
+#<span itemprop="name">AISTATS</span></span> <span itemprop="datePublished">2022</span></a>: <span itemprop="pagination">2045-2072</span></cite><meta property="genre" content="computer science">
+#<span itemprop="name">Data Min. Knowl. Discov.</span></span> <span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationVolume"><span itemprop="volumeNumber">34</span></span>(<span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationIssue"><span itemprop="issueNumber">3</span></span>)</a>: <span itemprop="pagination">611-651</span> (<span itemprop="datePublished">2020</span>)</cite>
+#<span itemprop="publisher">ACM</span> pan itemprop="datePublished">2022</span>, ISBN <span itemprop="isbn">978-1-4503-9096-5</span> <a class="toc-link" href="https://dblp.dagstuhl.de/db/conf/www/www2022.html">[contents]</a></cite>
+#<span itemprop="name">NeurIPS</span></span> <span itemprop="datePublished">2020</span></a></cite><meta property="genre" content="computer science">
+#<span itemprop="name">(.*?)</span></span> <span itemprop="datePublished">(.*?)</span></a></cite><meta property="genre" content="computer science">
+#<a href="https://orcid.org/0000-0001-7820-6883"><img alt="" src="https://dblp.dagstuhl.de/img/orcid.light.16x16.png" class="icon"></a></div><div class="body"><p><b>ORCID</b></p><p><em>ID inferred from metadata,<br>verification pending</em></p><ul><li><a href="https://orcid.org/0000-0001-7820-6883"><img alt="" src="https://dblp.dagstuhl.de/img/orcid.dark.16x16.png" class="icon">0000-0001-7820-6883</a></li></ul></div></li><li class="export drop-down">
+#<a href="https://orcid.org/0009-0005-9482-8769"><img alt="" src="https://dblp.dagstuhl.de/img/orcid.dark.16x16.png" class="icon">0009-0005-9482-8769</a></li><li><a href="https://orcid.org/0000-0001-7271-4692"><img alt="" src="https://dblp.dagstuhl.de/img/orcid.dark.16x16.png" class="icon">0000-0001-7271-4692</a></li><li><a href="https://orcid.org/0000-0002-6338-4203"><img alt="" src="https://dblp.dagstuhl.de/img/orcid.dark.16x16.png" class="icon">0000-0002-6338-4203</a></li></ul></div></li>
+#<cite class="data tts-content" itemprop="headline"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="this-person" itemprop="name">Florian Adriaens</span><img src="https://dblp.dagstuhl.de/img/orcid-mark.12x12.png" style="padding-left:0.25em;" alt="" title="0000-0001-7820-6883"></span>, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="https://dblp.dagstuhl.de/pid/269/4508.html" itemprop="url"><span itemprop="name" title="Honglian Wang">Honglian Wang</span></a><img src="https://dblp.dagstuhl.de/img/orcid-mark.12x12.png" style="padding-left:0.25em;" alt="" title="0009-0008-6463-392X"></span>, <span itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="https://dblp.dagstuhl.de/pid/g/AristidesGionis.html" itemprop="url"><span itemprop="name" title="Aristides Gionis">Aristides Gionis</span></a><img src="https://dblp.dagstuhl.de/img/orcid-mark.12x12.png" style="padding-left:0.25em;" alt="" title="0000-0002-5211-112X"></span>:<br> <span class="title" itemprop="name">Minimizing Hitting Time between Disparate Groups with Shortcut Edges.</span> <a href="https://dblp.dagstuhl.de/db/conf/kdd/kdd2023.html#AdriaensWG23"><span itemprop="isPartOf" itemscope itemtype="http://schema.org/BookSeries"><span itemprop="name">KDD</span></span> <span itemprop="datePublished">2023</span></a>: <span itemprop="pagination">1-10</span></cite>
