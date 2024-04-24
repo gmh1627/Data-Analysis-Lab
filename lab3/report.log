@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.21)  18 APR 2024 10:09
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.21)  13 APR 2024 20:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -536,34 +536,6 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15.05624> not available
 
 ]
 
-Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "FangSong/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "FangSong/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
-(fontspec)             with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-File: 1.png Graphic file (type bmp)
-<1.png>
-File: 2.png Graphic file (type bmp)
-<2.png>
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 21.68097pt, for example:
 (fancyhdr)                \setlength{\headheight}{21.68097pt}.
@@ -572,32 +544,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-]
-File: 3.png Graphic file (type bmp)
-<3.png>
-File: 4.png Graphic file (type bmp)
-<4.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 21.68097pt, for example:
-(fancyhdr)                \setlength{\headheight}{21.68097pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-9.68097pt}.
-
-[2] (./report.aux)
+] (./report.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.65625pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 16313 strings out of 478630
- 360641 string characters out of 5847730
- 1856012 words of memory out of 5000000
- 36258 multiletter control sequences out of 15000+600000
- 521575 words of font info for 106 fonts, out of 8000000 for 9000
+ 16173 strings out of 478630
+ 354374 string characters out of 5847730
+ 1847012 words of memory out of 5000000
+ 36136 multiletter control sequences out of 15000+600000
+ 521511 words of font info for 98 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  89i,11n,97p,1198b,376s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.pdf (3 pages).
+Output written on report.pdf (2 pages).
