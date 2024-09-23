@@ -1,0 +1,10 @@
+'ST001D01T'：Student International Grade (Derived)
+ 'GRADE',：Grade compared to modal grade in country
+'ST127Q02TA'：Have you ever repeated a <grade>? At <ISCED 2>
+ 'ST127Q01TA',：Have you ever repeated a <grade>? At <ISCED 1>
+'ISCEDL'：ISCED level
+'IC152Q06HA',：Digital device used for learning or teaching during lessons within the last month: Music
+'HISEI',：Index highest parental occupational status
+'ESCS'：Index of economic, social and cultural status
+ 'IC151Q06HA',：Time spent using digital devices outside of classroom lessons in a typical school week: Music
+'ST005Q01TA', 'BMMJ1', 'IC150Q06HA', 'ST013Q01TA', 'OCOD2', 'ST007Q01TA', 'PARED', 'OCOD3', 'OCOD1', 'HISCED_D', 'MISCED_D', 'PAREDINT', 'METASUM', 'IC151Q09HA', 'IMMIG', 'ST019BQ01T'
